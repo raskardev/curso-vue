@@ -1,6 +1,8 @@
 <template>
-  <main class="flex overflow-x-auto py-8 px-2 bg-body">
-    <TasksList name="Prueba" />
+  <main class="px-4 pt-8 pb-4 bg-body">
+    <div class="flex h-full overflow-x-auto">
+      <TasksList name="Prueba" />
+    </div>
   </main>
 </template>
 
@@ -15,7 +17,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 main {
   height: calc(100% - 48px);
 }

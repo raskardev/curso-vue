@@ -333,11 +333,12 @@ module.exports = {
       full: '100%',
       ...breakpoints(theme('screens')),
     }),
-    minHeight: {
+    minHeight: (theme) => ({
       '0': '0',
+      ...theme('spacing'),
       full: '100%',
       screen: '100vh',
-    },
+    }),
     minWidth: {
       '0': '0',
       full: '100%',

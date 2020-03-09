@@ -1,5 +1,5 @@
 <template>
-  <div class="w-68 overflow-y-auto rounded bg-gray-400"></div>
+  <div class="flex-shrink-0 w-68 min-h-16 overflow-y-auto mr-2 ml-2 rounded bg-gray-400"></div>
 </template>
 
 <script>
@@ -17,3 +17,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+div {
+  height: fit-content;
+}
+</style>
