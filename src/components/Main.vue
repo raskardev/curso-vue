@@ -1,6 +1,6 @@
 <template>
-  <main class="px-4 pt-8 pb-4 bg-body">
-    <div class="flex h-full overflow-x-auto">
+  <main class="px-4 pt-8 pb-2 bg-body">
+    <div class="flex h-full overflow-x-auto overflow-y-hidden">
       <TasksList name="Prueba" />
     </div>
   </main>
