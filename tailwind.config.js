@@ -18,7 +18,7 @@ module.exports = {
       body: '#0079BF',
       cardBackground: '#EBECF0',
       button: '#52A4D4',
-      buttonHovered: '#52A4D3',
+      'button-hovered': '#3385B5',
 
       gray: {
         100: '#f7fafc',
@@ -151,6 +151,7 @@ module.exports = {
       '48': '12rem',
       '56': '14rem',
       '64': '16rem',
+      '68': '17rem',
     },
     backgroundColor: (theme) => theme('colors'),
     backgroundPosition: {
